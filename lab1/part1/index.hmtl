@@ -1,35 +1,3 @@
-<!--
-Name: Alyssa Hunsdale-Rydzanicz
-File:assignment1.html
-Date: 05 22 2026
-Formatting a letter to show HTML 
-text formatting skills--> 
-<!DOCTYPE html>
-<html lang=""en>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>INFT1206-Lab1 Part 1</title> 
-    <style>
-        body {
-  font: 1.2em / 1.5 system-ui;
-}
-
-.sender-column {
-  text-align: right;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.3em;
-}
-    </style>
-<head>
-    <body>
-        
 Dr. Eleanor Gaye
 Awesome Science faculty
 University of Awesome
@@ -118,4 +86,3 @@ Dr Eleanor Gaye
 
 University of Awesome motto: Be awesome to each other. --
 The memoirs of Bill S Preston, Esq.
-</body>
