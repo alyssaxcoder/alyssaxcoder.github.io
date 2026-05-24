@@ -6,7 +6,28 @@ Marking up a letter to show text format skills-->
 <!DOCTYPE html>
 <html lang="En"> 
 <head>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFT-1206-Lab1 part1</title>
+    <style>
+        body {
+        font: 1.2em / 1.5 system-ui;
+        }
+
+        .sender-column {
+        text-align: right;
+        }
+
+        h1 {
+        font-size: 1.5em;
+        }
+
+        h2 {
+        font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
 Dr. Eleanor Gaye
 Awesome Science faculty
 University of Awesome
