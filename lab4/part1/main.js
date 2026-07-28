@@ -42,7 +42,7 @@ function returnRandomStoryString() {
     let storyText='It was 94 Fahrenheit outside, so ${randomCharacter}        went for a walk. When they got to ${randomLocation},  they stared in horror for a few moments, then ${randomEvent}.Bob saw the whole thing, but was not surprised — ${randomCharacter} weighs 300 pounds, and it was a hot day.';
 
 
-  return storyText;
+    return storyText;
 }
 
 // Event listener and partial generate function definition
@@ -50,16 +50,19 @@ function returnRandomStoryString() {
 generateBtn.addEventListener("click", generateStory);
 
 function generateStory() {
-  if (customName.value !== "") {
+    let newStory=returnRandomStoryString();
+
+    if (customName.value !== "") {
     const name = customName.value;
-  }
+    newStory=newStory.replace("Bob",name);
+    }
 
-  if (document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature = Math.round(94);
-  }
+    if (document.getElementById("uk").checked) {
+    const weight = Math.round(300/14)   ;
+    const temperature = Math.round ( (94-32)*(5/9))} Clesius;
+    }
 
-  // TODO: replace "" with the correct expression
-  story.textContent = "";
-  story.style.visibility = "visible";
-}
+    // TODO: replace "" with the correct expression
+    story.textContent = "";
+    story.style.visibility = "visible";
+        
