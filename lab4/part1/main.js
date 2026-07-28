@@ -1,3 +1,11 @@
+
+/*
+Name: Alyssa Hunsdale-Rydzanicz
+File: main.js
+Date: 07-28-2026
+Silly Storyline generator
+*/
+
 // Complete variable definitions and random functions
 
 const customName = document.getElementById("custom-name");
