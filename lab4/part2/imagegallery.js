@@ -47,6 +47,5 @@ function updateDisplayedImage(e){
             overlay.computedStyleMap.backgroundColor="rgb(000/0)";
 
         }
-        }
-    }
-}
+        btn.classList.toggle("dark");
+    })};
