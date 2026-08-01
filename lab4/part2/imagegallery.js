@@ -14,3 +14,8 @@ const images=[
 
 
 ];
+//adding immages to thumbnail bar
+//creating a base url for images
+const baseURL="https://mdn.github.io/shared-assets/images/examples/learn/gallery/";
+
+
