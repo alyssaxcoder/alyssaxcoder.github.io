@@ -18,4 +18,35 @@ const images=[
 //creating a base url for images
 const baseURL="https://mdn.github.io/shared-assets/images/examples/learn/gallery/";
 
+// loop images
 
+for( const image of images){
+    const newImage=document.createElement("img");
+    newImage.src=`${baseURL}${image.filename}`;
+    newImage.alt=image.alt;
+    newImage.tabIndex="0";
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener("click",updateDisplayedImage);
+
+}
+
+
+//Create updateDisplayedImage()
+function updateDisplayedImage(e){
+    displayedImage.src=e.target.src;
+    displayedImage.alt=e.target.alt;
+
+    //Wire up darken/lighten button
+
+    btn.addEventListener("click", ()=>{
+        if (btn.classList.contains("dark")){
+            btn.textContent="Lighten";
+            overlay.computedStyleMap.backgroundColor="rgb(000/0.5)";
+        }else{
+            btn.textContent="Darken";
+            overlay.computedStyleMap.backgroundColor="rgb(000/0)";
+
+        }
+        }
+    }
+}
