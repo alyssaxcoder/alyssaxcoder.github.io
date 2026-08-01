@@ -1,3 +1,9 @@
+/*
+        Name: Alyssa Hunsdale-Rydzanicz
+        File:main.js
+        Date: 31 July 2026
+        Object Building Practice */
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
@@ -17,3 +23,4 @@ function random(min, max) {
 function randomRGB() {
     return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
+
